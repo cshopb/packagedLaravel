@@ -6,5 +6,15 @@
     {
       "name": "zsolt"
     }
-  ]
+  ],
+
+  "autoload": {
+    "psr-4": {
+      "Focus\\Demo\\": "src/"
+    }
+  },
+
+  "require": {
+    "illuminate/support": "~5"
+  }
 }
