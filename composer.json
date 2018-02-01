@@ -1,0 +1,10 @@
+{
+  "name": "focus-grp/demo",
+  "description": "Demo package for Focus-grp.",
+  "keywords": ["laravel", "demo", "focus-grp"],
+  "authors": [
+    {
+      "name": "zsolt"
+    }
+  ]
+}
