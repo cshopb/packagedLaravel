@@ -9,3 +9,7 @@ Route::get('demo/hello', function () {
 });
 
 Route::get('demo', 'Focus\Demo\Http\DemoController@index');
+
+Route::get('demo/view', function () {
+    return view('focus-demo-views::index');
+});
