@@ -1,20 +1,31 @@
 {
-  "name": "focus-grp/packages-demo",
-  "description": "Demo package for Focus-grp.",
-  "keywords": ["laravel", "demo", "focus-grp"],
-  "authors": [
-    {
-      "name": "zsolt"
-    }
-  ],
+    "name": "focus-grp/packages-demo",
+    "description": "Demo package",
+    "keywords": ["laravel", "demo", "focus-grp"],
+    "authors": [
+        {
+            "name": "Zsolt",
+            "email": "zsolt@test.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Focus\\Demo\\": "src/"
+        }
+    },
 
-  "autoload": {
-    "psr-4": {
-      "Focus\\Demo\\": "src/"
-    }
-  },
+    "require": {
+        "illuminate/support": "~5"
+    },
 
-  "require": {
-    "illuminate/support": "~5"
-  }
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Focus\\Demo\\DemoServiceProvider"
+            ],
+            "aliases": {
+                "Demo": "Focus\\Demo\\DemoFacade"
+            }
+        }
+    }
 }
