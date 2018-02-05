@@ -1,7 +1,7 @@
 {
     "name": "zsolt-focus/packages-demo",
     "description": "Demo package",
-    "keywords": ["laravel", "demo", "focus-grp"],
+    "keywords": ["laravel", "demo"],
     "authors": [
         {
             "name": "Zsolt",

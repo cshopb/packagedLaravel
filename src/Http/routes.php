@@ -15,6 +15,10 @@ Route::get('demo/view', function () {
 });
 
 Route::get('demo/config', function () {
-    return config('focus-demo-main.option') .
-        config('focus-demo-main.another_option');
+    return config('focus-demo.main.option') .
+        config('focus-demo.main.another_option');
+});
+
+Route::get('demo/model', function () {
+    dd(\Focus\Demo\Models\Item::get());
 });

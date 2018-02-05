@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'option' => 'Hello',
-    'another_option' => 'World'
+    'option' => 'Option from Vendor folder. ',
+    'another_option' => 'Another option from Vendor folder. '
 ];
